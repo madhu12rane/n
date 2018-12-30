@@ -77,4 +77,4 @@ var storiesSchema = new mongoose.Schema({
 });
 
 
-mongoose.model( 'Story', storiesSchema,'stories');
+mongoose.model( 'Story', storiesSchema);
