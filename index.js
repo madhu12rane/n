@@ -2,9 +2,10 @@ var chalk = require('./models/chalk');
 var express = require('express');
 var mongoose = require('./models/mongoose');
 var db = require('./models/db.js');
+var user = require('./routes/user.js');
 var story = require('./routes/story.js');
 var routes = require('./routes/route.js');
-var user = require('./routes/user.js');
+
 
 
 var bodyParser = require('body-parser');
