@@ -63,7 +63,7 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
 
 
 
-mongoose.model( 'User', userSchema );
+mongoose.model( 'User', userSchema);
 
 var storiesSchema = new mongoose.Schema({
   author:String,
